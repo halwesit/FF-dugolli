@@ -353,6 +353,10 @@ class _LoginWidgetState extends State<LoginWidget> {
               ),
             ),
           ),
+          Text(
+            'Hello World',
+            style: FlutterFlowTheme.of(context).bodyMedium,
+          ),
         ],
       ),
     );
